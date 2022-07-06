@@ -159,3 +159,31 @@ body {
 .sub-donate-plan-3 {
   background-color: #fff4d5;
 }
+
+.donation-feed {
+  margin-top: 100px;
+
+  display: block;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.donation-feed-left {
+  display: inline-block;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+  height: 452px;
+  width: 500px;
+  vertical-align: top;
+}
+
+.donation-feed-right {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  height: 452px;
+  width: 500px;
+  vertical-align: top;
+}
