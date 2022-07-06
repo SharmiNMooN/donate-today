@@ -187,3 +187,33 @@ body {
   width: 500px;
   vertical-align: top;
 }
+
+.donation-feed-2 {
+  margin-top: 80px;
+
+  display: block;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.donation-feed-2 .donation-feed-left {
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+  height: 452px;
+  width: 500px;
+}
+
+.donation-feed-2 .donation-feed-left img {
+  height: 452px;
+  width: 500px;
+}
+
+.donation-feed-2 .donation-feed-right {
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+  height: 452px;
+  width: 500px;
+}
