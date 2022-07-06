@@ -49,23 +49,13 @@ body {
 }
 .donate-content-1 {
   margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .donate-content-1 h1 {
   font-size: 50px;
   margin: 0;
 }
-
-/* .donate-content-2 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.donate-content-2 ul li {
-  display: inline;
-
-} */
-
 .donate-content-2 {
   display: block;
 }
@@ -122,12 +112,13 @@ body {
   display: block;
   text-align: center;
   flex-wrap: wrap;
+  margin-bottom: 25px;
   align-content: center;
 }
 
 .donate-plan-content h1 {
   font-size: 50px;
-  margin: 0;
+  margin: 2px;
   display: block;
   text-align: center;
   flex-wrap: wrap;
@@ -148,6 +139,7 @@ body {
   height: 352px;
   width: 360px;
   vertical-align: top;
+  margin-left: 15px;
 }
 .sub-donate-plan-1 {
   background-color: #f0f6f7;
@@ -185,6 +177,16 @@ body {
   height: 452px;
   width: 500px;
   vertical-align: top;
+  text-align: left;
+}
+
+.donation-feed-right img {
+  height: 40%;
+  width: 100%;
+}
+
+.donation-feed-right p {
+  text-align: left;
 }
 
 .donation-feed-2 {
