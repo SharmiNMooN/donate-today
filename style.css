@@ -189,35 +189,52 @@ body {
   text-align: left;
 }
 
-.donation-feed-2 {
+.volunteer-section {
   margin-top: 80px;
+}
 
+.volunteer-section-title {
+  display: block;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  align-content: center;
+}
+
+.volunteer-section-title h1 {
+  font-size: 50px;
+  margin: 2px;
   display: block;
   text-align: center;
   flex-wrap: wrap;
   align-content: center;
 }
 
-.donation-feed-2 .donation-feed-left {
+.volunteer-card {
+  display: block;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.team-member {
+  display: inline-block;
   font-size: 20px;
-  text-align: left;
+  text-align: justify;
   padding: 20px;
-  height: 452px;
-  width: 500px;
+  vertical-align: top;
+  margin-left: 15px;
 }
 
-.donation-feed-2 .donation-feed-left img {
-  height: 452px;
-  width: 500px;
+.team-member img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
 
-.donation-feed-2 .donation-feed-right {
-  font-size: 20px;
-  padding: 20px;
-  text-align: left;
-  height: 452px;
-  width: 500px;
+.volunteer-content {
+
 }
+
 
 .update {
   margin-top: 100px;
@@ -284,9 +301,11 @@ footer {
 
 .footer-text {
   color: white;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .footer-text h2 {
   color: #ff5a5a;
+  font-family: Lobster, serif;
+  font-style: italic;
 }
